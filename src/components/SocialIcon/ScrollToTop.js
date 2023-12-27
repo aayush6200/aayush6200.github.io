@@ -76,7 +76,7 @@ function ScrollToTop() {
           </StyledIconButton>
         </Tooltip>
       )}
-      <Tooltip title="chatbot">
+      <Tooltip title="Chatbot functionality will be added soon">
         <StyledIconButton
           aria-label="open chatbot"
           onClick={handleChatbotClick}
