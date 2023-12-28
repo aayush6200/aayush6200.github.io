@@ -43,7 +43,6 @@ function ScrollToTop() {
     setOpen(false);
     scroll.scrollToTop({ duration: 0 });
   };
-
   const handleChatbotClick = () => {
     // Placeholder for chatbot click handling logic
     setIsChatbotOpen(!isChatbotOpen);
@@ -76,7 +75,9 @@ function ScrollToTop() {
           </StyledIconButton>
         </Tooltip>
       )}
-      <Tooltip title="Chatbot functionality will be added soon">
+      <Tooltip
+        title="Chatbot functionality will be added soon"
+        style={{ fontSize: "4rem" }}>
         <StyledIconButton
           aria-label="open chatbot"
           onClick={handleChatbotClick}

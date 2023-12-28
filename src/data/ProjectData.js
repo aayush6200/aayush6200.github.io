@@ -34,8 +34,8 @@ export const ProjectList = [
       "GPT-4",
       "Prompt engineering",
     ],
-    github_url: "jdcnjffnj",
-    demo_url: "https://renr-bcit.web.app/",
+    github_url: "https://github.com/aayush6200/secureInbox",
+    // demo_url: "https://renr-bcit.web.app/",
   },
 
   {
